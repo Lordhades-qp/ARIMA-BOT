@@ -1,5 +1,5 @@
-# ARIMA BOT 
-`WhatsApp bot multi device`
+##         ARIMA BOT 
+   `WhatsApp bot multi device`
 
 ![converted_image](https://github.com/user-attachments/assets/009c639c-3fea-4372-b728-c740d8aec591)
 
@@ -32,7 +32,37 @@
 ---
 
 
+
+
+
 Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
+
+
+Pour automatiser les textes et déploiements en utilisant github action 
+
+.`github/workflows/deploy.yml`
+
+```
+name: Deploy Bot
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Start bot
+        run: node index.js
+        ```
+
+------
 
 ## Installation
 1. Clonez ce dépôt 🔢
