@@ -1,5 +1,5 @@
-# Chatbot-Test-
-WhatsApp chatbot 
+# ARIMA BOT 
+`WhatsApp bot multi device`
 
 ![converted_image](https://github.com/user-attachments/assets/009c639c-3fea-4372-b728-c740d8aec591)
 
@@ -11,7 +11,6 @@ WhatsApp chatbot
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bot WhatsApp Pro</title>
 </head>
 <body>
   <!-- Image centrée -->
@@ -22,7 +21,7 @@ WhatsApp chatbot
   <!-- Texte animé personnalisé -->
   <p align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝+ARIMA+BOT+★⃝•;ADVANCED+WHATSAPP+ASSISTANT;DEVELOPED+BY+ARIMA;RELEASED+DATE+25%2F12%2F2025." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝+ARIMA+BOT+★⃝•;WHATSAPP+BOT;DEVELOPED+BY+ARIMA;RELEASED+DATE+03%2F01%2F2025." alt="Typing SVG" />
     </a>
   </p>
 </body>
@@ -82,4 +81,4 @@ async function startBot() {
     });
 }
 
-startBot().catch((err) => console.error(err));
+startBot.
