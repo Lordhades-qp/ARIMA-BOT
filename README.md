@@ -12,7 +12,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+
+</body>
   <!-- Image centrée -->
   <p align="center">
     <img src="https://api.shannmoderz.xyz/server/file/JhnZNPg59LpUxYf.jpg"/>
@@ -28,29 +29,26 @@
 </html>
 
 
-
-
-
-
-
-
 ---
 
 
 Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
 
 ## Installation
-1. Clonez ce dépôt :  
-   ```bash
-   git clone https://github.com/Lordhades-qp/Chatbot-Test.git
+1. Clonez ce dépôt 🔢
+
+    ```bash
+   git clone https://github.com/Lordhades-qp/ARIMA-BOT
    cd my-whatsapp-bot
    ```
-2. Installez les dépendances :  
-   ```bash
+3. Installez les dépendances :  
+ 
+    ```bash
    npm install
    ```
-3. Lancez le bot :  
-   ```bash
+4. Lancez le bot :  
+
+    ```bash
    npm start
    ```
 
