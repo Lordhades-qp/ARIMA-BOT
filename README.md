@@ -6,6 +6,7 @@
 
 ## WhatsApp Bot
 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -65,7 +66,7 @@ jobs:
 ------
 
 ## Installation
-1. Clonez ce dépôt 🔢
+1. Clonez ce dépôt
 
     ```bash
    git clone https://github.com/Lordhades-qp/ARIMA-BOT
@@ -82,9 +83,9 @@ jobs:
    npm start
    ```
 
-
 ---------
 
+```
    const { default: makeWASocket, useSingleFileAuthState } = require('@adiwajshing/baileys');
 const { Boom } = require('@hapi/boom');
 const { state, saveState } = useSingleFileAuthState('./auth_info.json');
@@ -93,6 +94,7 @@ async function startBot() {
     const sock = makeWASocket({
         auth: state,
     });
+    ```
 
     sock.ev.on('creds.update', saveState);
 
@@ -108,5 +110,3 @@ async function startBot() {
         }
     });
 }
-
-startBot.
