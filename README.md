@@ -79,6 +79,9 @@ jobs:
     ```bash
    npm start
    ```
+```
+npm install node-cache
+```
 
 ---------
 
