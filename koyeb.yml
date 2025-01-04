@@ -1,0 +1,18 @@
+name: arima-bot
+services:
+  - name: arima-bot-service
+    type: web
+    port: 3000
+    docker:
+      image: node:16
+      cmd: ["npm", "start"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env:
+      - name: PREFIXE
+        value: "!"
+      - name: SESSION_ID
+        value: "votre_session_id"
+      - name: NOM_BOT
+        value: "ArimaBot"
