@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: arima-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PREFIXE
+        value: "!"
+      - key: SESSION_ID
+        value: "votre_session_id"
+      - key: NOM_BOT
+        value: "ArimaBot"
