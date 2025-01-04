@@ -64,7 +64,7 @@ arimaBot({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOp
     }
 
     // URL de l'image de fond (vous pouvez personnaliser cela)
-    const link = s.IMAGE_MENU;"https://imgur.com/a/oz4klEM"
+    const link = "https://imgur.com/a/oz4klEM";
 
     // Envoi du message
     try {
