@@ -1,0 +1,26 @@
+{
+  "name": "arima-bot",
+  "version": "1.0.0",
+  "description": "Bot déployé sur Render utilisant Node.js et Express",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "bot",
+    "node",
+    "express",
+    "render",
+    "html"
+  ],
+  "author": "Arima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
