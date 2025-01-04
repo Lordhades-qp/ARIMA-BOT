@@ -20,7 +20,7 @@
     <img src="https://api.shannmoderz.xyz/server/file/JhnZNPg59LpUxYf.jpg"/>
   </p>
 
-  <!-- Texte animé personnalisé -->
+
   <p align="center">
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝+ARIMA+BOT+★⃝•;WHATSAPP+BOT;DÉVELOPPÉ+PAR+ARIMA;DATE+DATE+03%2F01%2F2025." alt="Typing SVG" />
@@ -32,7 +32,33 @@
 
 ---
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue sur Arima Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur Arima Bot</h1>
+  <p>Le bot est en cours d'exécution avec succès sur Render.</p>
+</body>
+</html>
 
 
 
