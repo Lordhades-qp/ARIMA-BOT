@@ -1,0 +1,36 @@
+{
+  "name": "arima-bot",
+  "description": "Bot WhatsApp multi-device basé sur Baileys",
+  "keywords": ["bot", "whatsapp", "baileys"],
+  "repository": "https://github.com/https://github.com/Lordhades-qp/arima-bot",
+  "logo": "https://imgur.com/a/oz4klEM",
+  "stack": "container",
+  "env": {
+    "PREFIXE": {
+      "description": "Choisissez votre préfixe",
+      "value": "!"
+    },
+    "SESSION_ID": {
+      "description": "Votre ID de session WhatsApp",
+      "required": true
+    },
+    "NOM_BOT": {
+      "description": "Nom de votre bot",
+      "value": "ArimaBot"
+    },
+    "NUMERO_OWNER": {
+      "description": "Votre numéro de téléphone (format ID+Numéro)",
+      "value": "237620934302"
+    },
+    "MODE_PUBLIC": {
+      "description": "Activer le mode public (oui/non)",
+      "value": "oui"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  }
+    }
