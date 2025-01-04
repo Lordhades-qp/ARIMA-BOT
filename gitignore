@@ -1,0 +1,40 @@
+# Dépendances Node.js
+node_modules/
+
+# Fichiers de configuration
+.env
+*.env
+
+# Sorties de construction
+dist/
+build/
+
+# Journaux
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Sessions et fichiers sensibles
+session.json
+*.session
+
+# Heroku
+*.pid
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2
+.pmx/
+pm2-log.txt
+
+# Autres
+.idea/
+.vscode/
+*.lock
