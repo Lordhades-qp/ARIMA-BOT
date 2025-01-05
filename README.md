@@ -44,7 +44,7 @@
 ----
 
   
-  [Déployer sur Replit](https://replit.com)
+##  [Déployer sur Replit](https://replit.com)
 <a href="https://replit.com/github/lordhades-qp/arima-bot" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Replit_Logo.png" alt="Run on Replit" width="200">
 </a>
@@ -68,7 +68,7 @@
 -----
 
 
-  [Déployer sur Vercel](https://vercel.com)
+##  [Déployer sur Vercel](https://vercel.com)
 <a href="https://vercel.com/new" target="_blank">
   <img src="https://vercel.com/button" alt="Deploy to Vercel" width="200">
 </a
