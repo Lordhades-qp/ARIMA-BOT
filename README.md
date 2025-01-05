@@ -39,27 +39,26 @@ Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
 
 Pour automatiser les textes et déploiements en utilisant github action 
 
-
-<h1 align="center">ARIMA BOT</h1>
-<h2 align="center">WhatsApp Multi Device</h2>
+<h2 align="center">Déployer ARIMA BOT</h2>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Arima+Bot" alt="Arima Bot Banner" style="width:70%; border-radius:10px;">
+  <strong>Choisissez une plateforme d'hébergement :</strong>
 </p>
 
 <p align="center">
-  <strong>Arima Bot</strong> est un bot multi-fonction conçu pour WhatsApp Multi Device.
-</p>
+  <!-- Render -->
+  <a href="https://render.com" target="_blank">
+    <img src="https://img.shields.io/badge/Render-Deploy-blueviolet?logo=render&logoColor=white" alt="Render">
+  </a>
 
-<p align="center">
-  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
+  <!-- Koyeb -->
+  <a href="https://koyeb.com" target="_blank">
+    <img src="https://img.shields.io/badge/Koyeb-Deploy-brightgreen?logo=koyeb&logoColor=white" alt="Koyeb">
   </a>
-  <a href="https://github.com/votre-repo/arima-bot/issues" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/issues-open-red" alt="Issues">
-  </a>
-  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+
+  <!-- Heroku -->
+  <a href="https://heroku.com" target="_blank">
+    <img src="https://img.shields.io/badge/Heroku-Deploy-purple?logo=heroku&logoColor=white" alt="Heroku">
   </a>
 </p>
 
