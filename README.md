@@ -191,7 +191,6 @@ Happy Deploying
   _____
   -----
 
-    <img src="https://img.shields.io/badge/Render-Deploy-blueviolet?logo=render&logoColor=red" alt="Arima">
+    <img src="https://img.shields.io/badge/Arima-kiss-You-blueviolet?logo=render&logoColor=white" alt="Arima">
   </a>
   _____
-ARIMA KISS YOU 🌹
