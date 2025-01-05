@@ -24,13 +24,6 @@
   </div>
 </p>
 
-<style>
-  @keyframes shimmer {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-</style>
 
 ## 
 
@@ -50,8 +43,15 @@
   </a>
 
 ----
+
   
-  
+### 2. [Déployer sur Replit](https://replit.com)
+<a href="https://replit.com/github/lordhades-qp/arima-bot" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Replit_Logo.png" alt="Run on Replit" width="200">
+</a>
+
+   ----- 
+   
   <!-- Koyeb -->
   <a href="https://app.koyeb.com/deploy?repository=https://github.com/lordhades-qp/arima-bot" target="_blank">
     <img src="https://img.shields.io/badge/Koyeb-Deploy-brightgreen?logo=koyeb&logoColor=white" alt="Koyeb">
@@ -69,7 +69,17 @@
 -----
 
 
+### 1. [Déployer sur Vercel](https://vercel.com)
+<a href="https://vercel.com/new" target="_blank">
+  <img src="https://vercel.com/button" alt="Deploy to Vercel" width="200">
+</a
+
+-----
+
+##
+
 Pour automatiser les textes et déploiements en utilisant github action 
+
 .`github/workflows/deploy.yml`
 
 ```
