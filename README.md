@@ -191,6 +191,8 @@ Happy Deploying
   _____
   -----
 
-    <img src="https://img.shields.io/badge/Arima-kiss-You-blueviolet?logo=render&logoColor=white" alt="Arima">
+
+    <img title="ARIMA KISS YOU" src="https://img.shields.io/badge/Kiss-ARIMA-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
+</p>
   _____
