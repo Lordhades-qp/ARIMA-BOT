@@ -36,7 +36,7 @@ arimaBot({ nomCom: 'welcome', categorie: 'Admin' }, async (dest, bot, options) =
 ╚═══════════════════════════════════════════╝
 `;
 
-        const imageUrl = "https://example.com/your-image.jpg";  // Ajoute ici une URL d'image personnalisée
+        const imageUrl = "https://ibb.co/8mPPfwS";  // Ajoute ici une URL d'image personnalisée
 
         try {
             // Envoi d'un message de bienvenue avec image et texte formaté
@@ -77,7 +77,7 @@ arimaBot({ nomCom: 'welcome', categorie: 'Admin' }, async (dest, bot, options) =
 ╚═══════════════════════════════════════════╝
 `;
 
-        const imageUrl = "https://example.com/your-image.jpg";  // Ajoute ici une URL d'image personnalisée
+        const imageUrl = "https://ibb.co/7Y4NnNB";  // Ajoute ici une URL d'image personnalisée
 
         try {
             // Envoi d'un message d'au revoir avec image et texte formaté
