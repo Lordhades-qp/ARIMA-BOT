@@ -3,7 +3,34 @@
 
 ![converted_image](https://github.com/user-attachments/assets/009c639c-3fea-4372-b728-c740d8aec591)
 
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{ArimaBot}/count.svg" alt="ArimaBot :: Visitor's Count" />
+</p>
 
+<p align="center" style="font-size: 1.2em; font-weight: bold;">
+  <span style="color: #ff9a9e;">✨</span> Meet <strong>Arima Bot</strong>, Your Multi-Device WhatsApp Assistant! 
+  Enjoy a dynamic messaging experience that brings vibrant colors, unique features, and endless fun to your chats.
+  <span style="color: #fad0c4;">🌟</span> Let <strong>Arima Bot</strong> enhance every moment with creativity and automation. <span style="color: #a18cd1;">💬</span>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lordhades-qp/arima-bot/fork">
+    <img title="ARIMA BOT" src="https://img.shields.io/badge/FORK-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
+  </a>
+</p>
+
+<p align="center">
+  <div style="background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #ff9a9e); height: 10px; animation: shimmer 5s linear infinite;">
+  </div>
+</p>
+
+<style>
+  @keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
 
 ## 
 
