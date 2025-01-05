@@ -1,0 +1,14 @@
+{
+  "bannis": [
+    {
+      "numero": "+1234567890",
+      "nom": "Utilisateur Test",
+      "date_banni": "2025-01-03T10:30:00Z"
+    },
+    {
+      "numero": "+0987654321",
+      "nom": "Autre Utilisateur",
+      "date_banni": "2025-01-02T12:00:00Z"
+    }
+  ]
+}
