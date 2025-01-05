@@ -36,35 +36,100 @@
 Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Dégradé animé en arrière-plan */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 20px;
+      animation: textGlow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes textGlow {
+      from { text-shadow: 0 0 5px #ff9a9e, 0 0 10px #fad0c4; }
+      to { text-shadow: 0 0 20px #fbc2eb, 0 0 30px #a18cd1; }
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      font-size: 1.2em;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px white, 0 0 20px #fad0c4;
+    }
+
+    .render { background: #6c63ff; }
+    .koyeb { background: #34c759; }
+    .heroku { background: #7952b3; }
+    .fork { background: #f77f00; }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenue sur ARIMA BOT</h1>
+  <p>Déployez ou forkez votre propre bot WhatsApp multi-device :</p>
+
+  <div class="buttons">
+    <!-- Render -->
+    <a class="render" href="https://render.com/deploy?repo=https://github.com/lordhades-qp/arima-bot" target="_blank">
+      🌟 Déployer sur Render 🌟
+    </a>
+
+    <!-- Koyeb -->
+    <a class="koyeb" href="https://app.koyeb.com/deploy?repository=https://github.com/lordhades-qp/arima-bot" target="_blank">
+      🚀 Déployer sur Koyeb 🚀
+    </a>
+
+    <!-- Heroku -->
+    <a class="heroku" href="https://heroku.com/deploy?template=https://github.com/lordhades-qp/arima-bot" target="_blank">
+      🛠️ Déployer sur Heroku 🛠️
+    </a>
+
+    <!-- Fork -->
+    <a class="fork" href="https://github.com/lordhades-qp/arima-bot/fork" target="_blank">
+      🍴 Forker le dépôt GitHub 🍴
+    </a>
+  </div>
+</body>
+</html>
+
+
+-----
+
 
 Pour automatiser les textes et déploiements en utilisant github action 
-
-<h2 align="center">Déployer ARIMA BOT</h2>
-
-<p align="center">
-  <strong>Choisissez une plateforme d'hébergement :</strong>
-</p>
-
-<p align="center">
-  <!-- Render -->
-  <a href="https://render.com" target="_blank">
-    <img src="https://img.shields.io/badge/Render-Deploy-blueviolet?logo=render&logoColor=white" alt="Render">
-  </a>
-
-  <!-- Koyeb -->
-  <a href="https://koyeb.com" target="_blank">
-    <img src="https://img.shields.io/badge/Koyeb-Deploy-brightgreen?logo=koyeb&logoColor=white" alt="Koyeb">
-  </a>
-
-  <!-- Heroku -->
-  <a href="https://heroku.com" target="_blank">
-    <img src="https://img.shields.io/badge/Heroku-Deploy-purple?logo=heroku&logoColor=white" alt="Heroku">
-  </a>
-</p>
-
-
-
-
 .`github/workflows/deploy.yml`
 
 ```
