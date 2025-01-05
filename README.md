@@ -36,6 +36,50 @@
 Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arima Bot</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(45deg, #1e90ff, #00fa9a, #ff6347);
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      background: linear-gradient(to right, #ffafbd, #ffc3a0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 1.5s infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffafbd, 0 0 30px #ffc3a0;
+      }
+      to {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #ffafbd, 0 0 40px #ffc3a0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>ARIMA BOT<br>WHATSAPP MULTI DEVICE</h1>
+</body>
+</html>
+
+
+
+
 Pour automatiser les textes et déploiements en utilisant github action 
 
 .`github/workflows/deploy.yml`
