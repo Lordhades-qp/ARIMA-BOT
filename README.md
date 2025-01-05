@@ -13,6 +13,9 @@
 </p>
 
 <p align="center">
+
+----
+   
  <!-- Render -->
   <a href="https://render.com/deploy?repo=https://github.com/lordhades-qp/arima-bot" target="_blank">
     <img src="https://img.shields.io/badge/Render-Deploy-blueviolet?logo=render&logoColor=white" alt="Render">
