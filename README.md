@@ -192,7 +192,7 @@ Happy Deploying
   -----
 
 
-    <img title="ARIMA KISS YOU" src="https://img.shields.io/badge/Kiss-ARIMA-h?color=blue&style=for-the-badge&logo=stackshare">
+    <img title="ARIMA KISS YOU" src="https://img.shields.io/badge/ARIMA-KISS YOU-h?color=pink&style=for-the-badge&logo=stackshare">
   </a>
 </p>
   _____
