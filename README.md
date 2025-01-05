@@ -141,7 +141,6 @@ async function startBot() {
 
     sock.ev.on('messages.upsert', async (msg) => {
         console.log(JSON.stringify(msg, undefined, 2));
-
         const message = msg.messages[0];
         if (!message.message) return;
 
@@ -151,3 +150,17 @@ async function startBot() {
         }
     });
 }
+```
+
+-----
+
+
+## `Instructions de configuration`
+
+1. Clonez le projet localement ou connectez-le à l'une des plateformes ci-dessus.
+2. Configurez vos clés API et variables d'environnement dans un fichier `.env`.
+3. Lisez la [documentation complète](https://github.com/lordhades-qp/arima-bot) pour des détails supplémentaires.
+
+---
+
+Happy Deploying
