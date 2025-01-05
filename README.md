@@ -6,28 +6,28 @@
 
 ## WhatsApp Bot
 
+<h1 align="center">ARIMA BOT</h1>
+<h2 align="center">WhatsApp Multi Device</h2>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Arima+Bot" alt="Arima Bot Banner" style="width:70%; border-radius:10px;">
+</p>
 
-</body>
-  <!-- Image centrée -->
-  <p align="center">
-    <img src="https://api.shannmoderz.xyz/server/file/JhnZNPg59LpUxYf.jpg"/>
-  </p>
+<p align="center">
+  <strong>Arima Bot</strong> est un bot multi-fonction conçu pour WhatsApp Multi Device.
+</p>
 
-
-  <p align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝+ARIMA+BOT+★⃝•;WHATSAPP+BOT;DÉVELOPPÉ+PAR+ARIMA;DATE+DATE+03%2F01%2F2025." alt="Typing SVG" />
-    </a>
-  </p>
-</body>
-</html>
+<p align="center">
+  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
+  </a>
+  <a href="https://github.com/votre-repo/arima-bot/issues" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/issues-open-red" alt="Issues">
+  </a>
+  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </a>
+</p>
 
 
 ---
@@ -38,6 +38,33 @@ Ce bot utilise `node.js` pour interagir avec WhatsApp Web.
 
 
 Pour automatiser les textes et déploiements en utilisant github action 
+
+
+<h1 align="center">ARIMA BOT</h1>
+<h2 align="center">WhatsApp Multi Device</h2>
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Arima+Bot" alt="Arima Bot Banner" style="width:70%; border-radius:10px;">
+</p>
+
+<p align="center">
+  <strong>Arima Bot</strong> est un bot multi-fonction conçu pour WhatsApp Multi Device.
+</p>
+
+<p align="center">
+  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version">
+  </a>
+  <a href="https://github.com/votre-repo/arima-bot/issues" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/issues-open-red" alt="Issues">
+  </a>
+  <a href="https://github.com/votre-repo/arima-bot" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </a>
+</p>
+
+
+
 
 .`github/workflows/deploy.yml`
 
