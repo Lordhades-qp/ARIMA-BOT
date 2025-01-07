@@ -29,15 +29,11 @@
 
 <p align="center">
   <a href="https://arima-session-1.onrender.com">
-    <img title="Pairing" src="https://img.shields.io/badge/FORK-SESSION ID-h?color=blue&style=for-the-badge&logo=stackshare">
+    <img title="Pairing" src="https://img.shields.io/badge/SESSION ID-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
 </p>
 
-
-
-
-
-##  DÉPLOIEMENT 
+-------
 
 <h2 align="center">Déployer ARIMA BOT</h2>
 
