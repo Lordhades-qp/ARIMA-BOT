@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arima-session-1.onrender.com">
+  <a href="href="https://github.com/lordhades-qp/arima-bot/fork">
     <img title="ARIMA BOT" src="https://img.shields.io/badge/FORK-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
 </p>
@@ -23,8 +23,21 @@
   </div>
 </p>
 
+------
 
-##  Déploiement 
+## SESSION ID ARIMA BOT 
+
+<p align="center">
+  <a href="https://arima-session-1.onrender.com">
+    <img title="Pairing" src="https://img.shields.io/badge/FORK-SESSION ID-h?color=blue&style=for-the-badge&logo=stackshare">
+  </a>
+</p>
+
+
+
+
+
+##  DÉPLOIEMENT 
 
 <h2 align="center">Déployer ARIMA BOT</h2>
 
@@ -75,7 +88,7 @@
 
 -----
 
-##
+## WORKFLOWS 
 
 Pour automatiser les textes et déploiements en utilisant github action 
 
