@@ -24,7 +24,7 @@
 </p>
 
 
-## 
+##  Déploiement 
 
 <h2 align="center">Déployer ARIMA BOT</h2>
 
