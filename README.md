@@ -28,7 +28,7 @@
 ## SESSION ID ARIMA BOT 
 
 <p align="center">
-  <a href="https://arima-session-1.onrender.com">
+  <a href="https://arima-bot-session.onrender.com">
     <img title="Pairing" src="https://img.shields.io/badge/SESSION ID-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
 </p>
