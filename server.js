@@ -1,7 +1,6 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const express = require("express");
 const qrcode = require("qrcode-terminal");
-const { Client } = require('whatsapp-web.js');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -31,6 +30,15 @@ client.on("message", async (msg) => {
     if (msg.body.toLowerCase() === "hello") {
         msg.reply("Salut ! Comment puis-je t'aider ?");
     }
+});
+
+// Gestion des erreurs pour éviter les crashs
+client.on("disconnected", (reason) => {
+    console.log(`❌ Bot déconnecté : ${reason}`);
+});
+
+client.on("error", (error) => {
+    console.error(`🚨 Erreur : ${error.message}`);
 });
 
 // Démarrage du bot
