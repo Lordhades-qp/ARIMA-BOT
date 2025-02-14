@@ -73,9 +73,10 @@ TELECHARGER_AUTO_STATUS=non
 ANTI_VUE_UNIQUE=oui                
 WARN_COUNT=3                       
 ETAT=1                             
+```
 
 
-----
+-----
 
   
 ##  [Déployer sur Replit](https://replit.com)
