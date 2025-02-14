@@ -1,14 +1,45 @@
-const express = require('express');
-const app = express();
-const path = require('path');
+const { Client, LocalAuth } = require("whatsapp-web.js");
+const express = require("express");
+const qrcode = require("qrcode-terminal");
 
-// Servir le fichier HTML
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+const app = express();
+const port = process.env.PORT || 3000;
+
+const client = new Client({
+    authStrategy: new LocalAuth(), // Sauvegarde la session pour éviter de rescanner le QR code
+    puppeteer: {
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    },
 });
 
-// Démarrage du serveur
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Serveur démarré sur le port ${PORT}`);
+// Génération du QR Code
+client.on("qr", (qr) => {
+    console.log("Scan ce QR Code avec WhatsApp:");
+    qrcode.generate(qr, { small: true });
+});
+
+// Confirmation de connexion
+client.on("ready", () => {
+    console.log("✅ Arima Bot est connecté !");
+});
+
+// Écoute des messages
+client.on("message", async (msg) => {
+    console.log(`Message reçu de ${msg.from}: ${msg.body}`);
+
+    if (msg.body.toLowerCase() === "hello") {
+        msg.reply("Salut ! Comment puis-je t'aider ?");
+    }
+});
+
+// Démarrage du bot
+client.initialize();
+
+// Serveur Express pour Render
+app.get("/", (req, res) => {
+    res.send("Arima Bot est actif !");
+});
+
+app.listen(port, () => {
+    console.log(`🚀 Serveur démarré sur le port ${port}`);
 });
