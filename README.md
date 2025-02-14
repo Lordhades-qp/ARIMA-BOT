@@ -3,6 +3,8 @@
 
 ![converted_image](https://github.com/user-attachments/assets/009c639c-3fea-4372-b728-c740d8aec591)
 
+
+
 <p align="center">
   <img src="https://profile-counter.glitch.me/{ArimaBot}/count.svg" alt="ArimaBot :: Visitor's Count" />
 </p>
@@ -50,6 +52,29 @@
     <img src="https://img.shields.io/badge/Render-Deploy-blueviolet?logo=render&logoColor=white" alt="Render">
   </a>
 
+# copier le set.env suivant et coller dans le dépôt git.
+
+```
+
+PREFIXE=.                          
+NOM_BOT=Arima-Bot
+NUMERO_OWNER=2250565647864
+OWNER_NAME=𒋲𝑴𝑨𝑺𝑻𝑬𝑹𝑴𝑰𝑵𝑫𒋲
+MODE_PUBLIC=oui                    
+PM_PERMIT=non                      
+ANTI_COMMAND_SPAM=non              
+STARTING_BOT_MESSAGE=oui
+SESSION_ID=1234567890abcdef
+HEROKU_API_KEY=xxxxxxxxxxxxxxxxxxx
+HEROKU_APP_NAME=arima-bot
+DATABASE_URL=postgres://user:pass@localhost:5432/db_name 
+LECTURE_AUTO_STATUS=oui            
+TELECHARGER_AUTO_STATUS=non        
+ANTI_VUE_UNIQUE=oui                
+WARN_COUNT=3                       
+ETAT=1                             
+
+
 ----
 
   
@@ -85,6 +110,7 @@
 -----
 
 ## WORKFLOWS 
+
 
 Pour automatiser les textes et déploiements en utilisant github action 
 
