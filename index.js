@@ -23,7 +23,7 @@ async function startSesi() {
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 const { state, saveCreds } = await useMultiFileAuthState(`./session`)
 const { version, isLatest } = await fetchLatestBaileysVersion()
-    console.log(chalk.red.bold('\n𓊈 𝐑𝐈𝐌𝐊𝐔𝐒 𝐗 tmp꧁? ℐ𝓶𝓹𝓮𝓻𝓲𝓪𝓵 𝓴𝓲𝓷𝓰 𝓭𝓪𝓻𝓴꧂  𓊉\n\n\n\n\n           <|>  𝐑𝐈𝐌𝐊𝐔𝐒 𝐗 tmp꧁? ℐ𝓶𝓹𝓮𝓻𝓲𝓪𝓵 𝓴𝓲𝓷𝓰 𝓭𝓪𝓻𝓴꧂ <|>\n\n\n\n\n\n\n\n<> 𝐒𝐜𝐫𝐢𝐩𝐭 𝐁𝐲 <> : 𝕯𝐞𝐯 𝕽𝐢𝐦𝐤𝐮𝐬\n<> 𝐕𝐞𝐫𝐢𝐬𝐨𝐧 𝐒𝐜𝐫𝐢𝐩𝐭 <> : 𝐕𝟐\n<> 𝐃𝐞𝐯 <> : 𝐑𝐈𝐌𝐊𝐔𝐒 𝐗 𝐊𝐄𝐍 \n<> 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐃𝐞𝐯 <> : t.me/KenDev\n<> 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐃𝐞𝐯 <> : 22799229598\n\n𝐓𝐚𝐧𝐤𝐬 𝐘𝐨𝐮 𝐁𝐮𝐲 𝐒𝐜𝐫𝐢𝐩𝐭 𝐌𝐞 :)'))
+    console.log(chalk.red.bold('\n𓊈 𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞ 𓊉\n\n\n\n\n           <|>  𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞ <|>\n\n\n\n\n\n\n\n<> 𝐒𝐜𝐫𝐢𝐩𝐭 𝐁𝐲 <> : 𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞\n<> 𝐕𝐞𝐫𝐢𝐬𝐨𝐧 𝐒𝐜𝐫𝐢𝐩𝐭 <> : 𝐕𝟐\n<> Dev <> : 𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞ \n<> 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐃𝐞𝐯 <> : \n<> 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐃𝐞v <> : 2250565647864\n\n𝐓𝐚𝐧𝐤𝐬 𝐘𝐨𝐮 𝐁𝐮𝐲 𝐒𝐜𝐫𝐢𝐩𝐭 𝐌𝐞 :)'))
 const connectionOptions = {
 version,
 keepAliveIntervalMs: 30000,
@@ -53,10 +53,10 @@ process.exit()
 console.log(color(`Bad Session File, Please Delete Session and Scan Again`))
 process.exit()
 } else if (reason === DisconnectReason.connectionClosed) {
-console.log(color('[SYSTEM]', 'white'), color('Connection closed, reconnecting...', 'deeppink'))
+console.log(color('[SYSTEM]', 'blue'), color('Connection closed, reconnecting...', 'deeppink'))
 process.exit()
 } else if (reason === DisconnectReason.connectionLost) {
-console.log(color('[SYSTEM]', 'white'), color('Connection lost, trying to reconnect', 'deeppink'))
+console.log(color('[SYSTEM]', 'blue'), color('Connection lost, trying to reconnect', 'deeppink'))
 process.exit()
 } else if (reason === DisconnectReason.connectionReplaced) {
 console.log(color('Connection Replaced, Another New Session Opened, Please Close Current Session First'))
@@ -75,10 +75,10 @@ startSesi()
 start(`1`, `Connecting...`)
 } else if (connection === "open") {
 success(`1`, `CONNECTED`)
-zyn.sendMessage(`22799229598@s.whatsapp.net`, { text: `\`𝗛𝗜 𝒗𝒂𝒏𝒒𝒖𝒊𝒔𝒉\`                                 ┏━━━𓊈 𝐑𝐈𝐌𝐊𝐔𝐒 𝐗 𝒗𝒂𝒏𝒒𝒖𝒊𝒔𝒉  𓊉━━
+zyn.sendMessage(`2250565647864@s.whatsapp.net`, { text: `\`𝗛𝗜 𝒗𝒂𝒏𝒒𝒖𝒊𝒔𝒉\`                                 ┏━━━𓊈 𝐑𝐈𝐌𝐊𝐔𝐒 𝐗 𝒗𝒂𝒏𝒒𝒖𝒊𝒔𝒉  𓊉━━
 ┃ 𝐒𝐂𝐑𝐈𝐏𝐓 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝐕1
-┃ 𝐎𝐖𝐍𝐄𝐑 𝟏 : *𝕯𝐞𝐯 𝕽𝐢𝐦𝐤𝐮𝐬*
-┃ 𝐎𝐖𝐍𝐄𝐑 𝟐 : *tmp꧁? ℐ𝓶𝓹𝓮𝓻𝓲𝓪𝓵 𝓴𝓲𝓷𝓰 𝓭𝓪𝓻𝓴꧂*
+┃ 𝐎𝐖𝐍𝐄𝐑 𝟏 : *𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞*
+┃ 𝐎𝐖𝐍𝐄𝐑 𝟐 : *𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞*
 ┃ 𝐒𝐓𝐀𝐓𝐔𝐒 : 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 ✅
 ┗━━━━━━━━━━━━━━━━━━━━┛
 https://whatsapp.com/channel/0029VauerXp2f3ERPtUjBy0u`})
