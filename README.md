@@ -11,12 +11,12 @@
 
 <p align="center" style="font-size: 1.2em; font-weight: bold;">
   <span style="color: #ff9a9e;">✨</span> Meet <strong>Arima Bot</strong>, Your Multi-Device WhatsApp Assistant! 
-  <span style="color: #fad0c4;">🌟</span> Let <strong>Arima Bot</strong> enhance every moment with creativity and automation. <span style="color: #a18cd1;">💬</span>
+  <span style="color: #fad0c4;">🌟</span> Let <strong>Arima Bot</strong> enhance every moment with creativity and automation. <span style="color: #a18cd1;"></span>
 </p>
 
 <p align="center">
   <a href="href="https://github.com/lordhades-qp/arima-bot/fork">
-    <img title="ARIMA BOT" src="https://img.shields.io/badge/FORK-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
+    <img title="ARIMA BOT" src="https://img.shields.io/badge/FORK-ARIMA-BOT-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
 </p>
 
@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="https://arima-bot-session.onrender.com">
-    <img title="Pairing" src="https://img.shields.io/badge/SESSION ID-ARIMA BOT-h?color=blue&style=for-the-badge&logo=stackshare">
+    <img title="Pairing" src="https://img.shields.io/badge/SESSION ID-ARIMA-BOT-h?color=blue&style=for-the-badge&logo=stackshare">
   </a>
 </p>
 
@@ -65,11 +65,10 @@ PM_PERMIT=non
 ANTI_COMMAND_SPAM=non              
 STARTING_BOT_MESSAGE=oui
 SESSION_ID=1234567890abcdef
-HEROKU_API_KEY=xxxxxxxxxxxxxxxxxxx
 HEROKU_APP_NAME=arima-bot
-DATABASE_URL=postgres://user:pass@localhost:5432/db_name 
+DATABASE_URL=postgresql://arima_bot_user:3IifCX8FIDbPnScZ7vSaHjzcxKWYYgcG@dpg-cup1mhl6l47c73ci3ki0-a/arima_bot 
 LECTURE_AUTO_STATUS=oui            
-TELECHARGER_AUTO_STATUS=non        
+TELECHARGER_AUTO_STATUS=oui        
 ANTI_VUE_UNIQUE=oui                
 WARN_COUNT=3                       
 ETAT=1                             
@@ -110,87 +109,6 @@ ETAT=1
 
 -----
 
-## WORKFLOWS 
-
-
-Pour automatiser les textes et déploiements en utilisant github action 
-
-.`github/workflows/deploy.yml`
-
-```
-name: Deploy Bot
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Install dependencies
-        run: npm install
-      - name: Start bot
-        run: node index.js
-        ```
-
-------
-
-## Installation
-1. Clonez ce dépôt
-
-    ```bash
-   git clone https://github.com/Lordhades-qp/ARIMA-BOT
-   cd https://github.com/Lordhades-qp/ARIMA-BOT/tree/main
-   ```
-3. Installez les dépendances :  
- 
-    ```bash
-   npm install
-   ```
-4. Lancez le bot :  
-
-    ```bash
-   npm start
-   ```
-```
-npm install node-cache
-```
-
----------
-
-```
-   const { default: makeWASocket, useSingleFileAuthState } = require('@adiwajshing/baileys');
-const { Boom } = require('@hapi/boom');
-const { state, saveState } = useSingleFileAuthState('./auth_info.json');
-
-async function startBot() {
-    const sock = makeWASocket({
-        auth: state,
-    });
-    ```
-
-    sock.ev.on('creds.update', saveState);
-
-    sock.ev.on('messages.upsert', async (msg) => {
-        console.log(JSON.stringify(msg, undefined, 2));
-        const message = msg.messages[0];
-        if (!message.message) return;
-
-        const content = message.message.conversation || '';
-        if (content === 'ping') {
-            await sock.sendMessage(message.key.remoteJid, { text: 'pong' });
-        }
-    });
-}
-```
-
------
-
-
 ## `Instructions de configuration`
 
 1. Clonez le projet localement ou connectez-le à l'une des plateformes ci-dessus.
@@ -228,7 +146,7 @@ Happy Deploying
   -----
 
 
-    <img title="ARIMA KISS YOU" src="https://img.shields.io/badge/ARIMA-KISS YOU-h?color=pink&style=for-the-badge&logo=stackshare">
+    <img title="𓄂⍣⃝ ❦︎⃟𓍝𝚳𝚫𝐒𝚻𝚵𝚪𝚳𝚰𝚴𝐃☠︎ ⃝⃞" src="https://img.shields.io/badge/ARIMA-BEG YOU-h?color=pink&style=for-the-badge&logo=stackshare">
   </a>
 </p>
   _____
