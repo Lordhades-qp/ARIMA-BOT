@@ -55,7 +55,6 @@
 # copier le set.env suivant et coller dans le dépôt git.
 
 ```
-
 PREFIXE=.                          
 NOM_BOT=Arima-Bot
 NUMERO_OWNER=2250565647864
@@ -66,7 +65,7 @@ ANTI_COMMAND_SPAM=non
 STARTING_BOT_MESSAGE=oui
 SESSION_ID=1234567890abcdef
 HEROKU_APP_NAME=arima-bot
-DATABASE_URL=postgresql://arima_bot_user:3IifCX8FIDbPnScZ7vSaHjzcxKWYYgcG@dpg-cup1mhl6l47c73ci3ki0-a/arima_bot 
+DATABASE_URL=postgresql://arima_bot_hpzh_user:8T9JV4APf5by4W1Vp3zG5fvkgeA0tEXn@dpg-cut0t9btq21c73bap4eg-a/arima_bot_hpzh 
 LECTURE_AUTO_STATUS=oui            
 TELECHARGER_AUTO_STATUS=oui        
 ANTI_VUE_UNIQUE=oui                
